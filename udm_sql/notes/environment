@@ -1,0 +1,4 @@
+To this course udmsql:changeit123
+> # mysql -u root -p
+> GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' IDENTIFIED BY 'password';
+
