@@ -1,0 +1,11 @@
+To create a database:
+	$ sqlite3 DatabaseName.db
+
+Export complete database in a text file:
+	$ sqlite3 testDB.db .dump > testDB.sql
+
+Performing a restoration from the generated .sql:
+	$ sqlite3 testDB.db < testDB.sql
+
+-----------------------------------------------------------------------------
+ 
